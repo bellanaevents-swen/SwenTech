@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" width="100%" height="100%">
+  <defs>
+    <linearGradient id="g3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f43f5e" />
+      <stop offset="100%" stop-color="#fb7185" />
+    </linearGradient>
+    <linearGradient id="screenGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#311042" />
+    </linearGradient>
+    <filter id="glow3" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="10" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#0a0f1d" rx="16" />
+  <rect width="100%" height="100%" fill="url(#g3)" opacity="0.12" rx="16" />
+
+  <!-- Diagonal Tech Lines -->
+  <g opacity="0.15" stroke="#ffffff" stroke-width="1.5">
+    <line x1="-50" y1="200" x2="250" y2="-100" />
+    <line x1="150" y1="350" x2="450" y2="50" />
+  </g>
+
+  <!-- Glowing Orbs -->
+  <circle cx="200" cy="125" r="70" fill="#f43f5e" opacity="0.25" filter="url(#glow3)" />
+
+  <!-- Smartphone Frame 1 (Back Shadowed) -->
+  <rect x="110" y="55" width="80" height="155" rx="14" fill="#0f172a" stroke="rgba(255,255,255,0.15)" stroke-width="1.5" />
+  <rect x="114" y="59" width="72" height="147" rx="11" fill="url(#screenGrad)" opacity="0.8" />
+  <circle cx="150" cy="185" r="6" fill="rgba(255,255,255,0.2)" />
+
+  <!-- Smartphone Frame 2 (Foreground Active) -->
+  <g filter="url(#glow3)">
+    <rect x="180" y="35" width="95" height="180" rx="18" fill="#020617" stroke="rgba(255,255,255,0.25)" stroke-width="2" />
+  </g>
+  <!-- Screen Content -->
+  <rect x="185" y="40" width="85" height="170" rx="14" fill="url(#screenGrad)" />
+  
+  <!-- Notch -->
+  <rect x="212" y="40" width="31" height="6" rx="3" fill="#020617" />
+  
+  <!-- User Profile Mockup -->
+  <circle cx="227" cy="72" r="14" fill="url(#g3)" />
+  <rect x="202" y="96" width="50" height="8" rx="2" fill="rgba(255,255,255,0.8)" />
+  <rect x="212" y="108" width="30" height="5" rx="1.5" fill="rgba(255,255,255,0.4)" />
+  
+  <!-- Interactive Buttons/Cards in Mobile App -->
+  <rect x="195" y="125" width="65" height="28" rx="6" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.1)" stroke-width="1" />
+  <circle cx="207" cy="139" r="6" fill="#f43f5e" />
+  <rect x="219" y="136" width="32" height="6" rx="2" fill="rgba(255,255,255,0.7)" />
+
+  <rect x="195" y="160" width="65" height="28" rx="6" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.1)" stroke-width="1" />
+  <circle cx="207" cy="174" r="6" fill="#3b82f6" />
+  <rect x="219" y="171" width="32" height="6" rx="2" fill="rgba(255,255,255,0.7)" />
+  
+  <!-- Floating Heart Icon -->
+  <path d="M 255,75 C 255,70 262,70 262,75 C 262,80 255,84 255,84 C 255,84 248,80 248,75 C 248,70 255,70 255,75 Z" fill="#f43f5e" filter="url(#glow3)" />
+</svg>

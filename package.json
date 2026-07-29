@@ -1,0 +1,16 @@
+{
+  "name": "swen-portfolio",
+  "version": "1.0.0",
+  "description": "Professional Software Engineer Portfolio",
+  "type": "module",
+  "main": "backend/server.js",
+  "scripts": {
+    "dev": "node backend/server.js",
+    "build": "echo 'No build step required'",
+    "lint": "echo 'No lint step required'",
+    "start": "node backend/server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

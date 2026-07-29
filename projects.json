@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "title_en": "Project One",
+    "title_hu": "Projekt Egy",
+    "title_ro": "Proiect Unu",
+    "desc_en": "Description, tech stack, and results.",
+    "desc_hu": "Leírás, technológiák és eredmények.",
+    "desc_ro": "Descriere, tehnologii folosite și rezultate.",
+    "tag_en": "UI/UX Design",
+    "tag_hu": "UI/UX Tervezés",
+    "tag_ro": "Design UI/UX",
+    "image": "images/project1.svg",
+    "link": "#"
+  },
+  {
+    "id": 2,
+    "title_en": "Project Two",
+    "title_hu": "Projekt Kettő",
+    "title_ro": "Proiect Doi",
+    "desc_en": "Description, tech stack, and results.",
+    "desc_hu": "Leírás, technológiák és eredmények.",
+    "desc_ro": "Descriere, tehnologii folosite și rezultate.",
+    "tag_en": "Web Application",
+    "tag_hu": "Webalkalmazás",
+    "tag_ro": "Aplicație Web",
+    "image": "images/project2.svg",
+    "link": "#"
+  },
+  {
+    "id": 3,
+    "title_en": "Project Three",
+    "title_hu": "Projekt Három",
+    "title_ro": "Proiect Trei",
+    "desc_en": "Description, tech stack, and results.",
+    "desc_hu": "Leírás, technológiák és eredmények.",
+    "desc_ro": "Descriere, tehnologii folosite și rezultate.",
+    "tag_en": "Mobile Design",
+    "tag_hu": "Mobil Tervezés",
+    "tag_ro": "Design Mobil",
+    "image": "images/project3.svg",
+    "link": "#"
+  },
+  {
+    "id": 4,
+    "title_en": "Project Four",
+    "title_hu": "Projekt Négy",
+    "title_ro": "Proiect Patru",
+    "desc_en": "Description, tech stack, and results.",
+    "desc_hu": "Leírás, technológiák és eredmények.",
+    "desc_ro": "Descriere, tehnologii folosite și rezultate.",
+    "tag_en": "Full-Stack Development",
+    "tag_hu": "Full-Stack Fejlesztés",
+    "tag_ro": "Dezvoltare Full-Stack",
+    "image": "images/project4.svg",
+    "link": "#"
+  }
+]
