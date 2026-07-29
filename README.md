@@ -1,20 +1,22 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# 🚀 Full-Stack Web Portfolio & Contact System
 
-# Run and deploy your AI Studio app
-
-This contains everything you need to run your app locally.
-
-View your app in AI Studio: https://ai.studio/apps/48ca8493-ab59-49e4-9b5b-718384b3faa5
-
-## Run Locally
-
-**Prerequisites:**  Node.js
+A responsive website and contact system built with JS, HTML, and modern UI/UX principles.
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## ✨ Features
+- **UI/UX Design:** Custom responsive layout with modern micro-interactions.
+- **Automated Emailing:** Backend Express server configured with formspree.io
+- **Security:** Protected against DDoS using `express-rate-limit`.
+
+## 🛠️ Tech Stack
+- **Frontend:** HTML5, CSS3, JavaScript
+- **Backend:** JavaScript
+- **Email:** formspree.io
+- **Hosting:** GitHub Pages
+
+## 🚀 How to Run Locally
+
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/yourusername/your-repo.name.git](https://github.com/yourusername/your-repo.name.git)
+Install dependencies:
