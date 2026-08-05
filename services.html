@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Services & Pricing Guide | Swen WEB/UI/UX & Full-Stack Development">
+<title>Services | Swen</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="header">
+<div class="container nav">
+<a href="index.html" class="logo">
+  <img src="images/LogoSwen.png" alt="Swen">
+</a>
+<nav>
+  <a href="about.html"><i class="fa-solid fa-user"></i> <span data-i18n="navAbout">About</span></a>
+  <a href="services.html"><i class="fa-solid fa-code"></i> <span data-i18n="navServices">Services</span></a>
+  <a href="projects.html"><i class="fa-solid fa-diagram-project"></i> <span data-i18n="navProjects">Projects</span></a>
+  <a href="contact.html"><i class="fa-solid fa-envelope"></i> <span data-i18n="navContact">Contact</span></a>
+</nav>
+<div class="language-switcher">
+<select id="languageSelect">
+<option value="en">English</option>
+<option value="hu">Magyar</option>
+<option value="ro">Română</option>
+</select>
+</div>
+</div>
+</header>
+
+<main class="container">
+  <!-- Services Hero Section -->
+  <section class="page-hero fade-in" id="services-hero-section">
+    <div class="container" id="services-hero-container">
+      <h1 data-i18n="servicesTitle">Services</h1>
+      <p data-i18n="servicesHeroText">High-quality professional digital solutions tailored to your business needs.</p>
+    </div>
+  </section>
+
+  <!-- Top Service Cards Grid -->
+  <div class="cards fade-in" id="top-services-grid">
+    <div class="card" style="display: flex; flex-direction: column; justify-content: space-between; align-items: stretch; min-height: 250px;">
+      <div style="flex-grow: 1;">
+        <div class="card-icon-wrapper"><i class="fa-solid fa-laptop-code card-icon"></i></div>
+        <h3 data-i18n="serviceWebTitle">Web Applications</h3>
+        <p data-i18n="serviceWebDesc">Custom responsive applications using modern frameworks.</p>
+      </div>
+      <div style="display: flex; justify-content: flex-end; align-items: center; margin-top: 1rem;">
+        <a href="#pricing-guide" class="card-scroll-arrow-link" style="color: var(--primary); font-size: 1.35rem; text-decoration: none;" title="Scroll to Pricing Guide">
+          <i class="fa-solid fa-circle-arrow-down"></i>
+        </a>
+      </div>
+    </div>
+    <div class="card" style="display: flex; flex-direction: column; justify-content: space-between; align-items: stretch; min-height: 250px;">
+      <div style="flex-grow: 1;">
+        <div class="card-icon-wrapper"><i class="fa-solid fa-bezier-curve card-icon"></i></div>
+        <h3 data-i18n="serviceDesignTitle">UI/UX Design</h3>
+        <p data-i18n="serviceDesignDesc">Beautiful, user-centered, and intuitive digital interfaces crafted with precision.</p>
+      </div>
+      <div style="display: flex; justify-content: flex-end; align-items: center; margin-top: 1rem;">
+        <a href="#pricing-guide" class="card-scroll-arrow-link" style="color: var(--primary); font-size: 1.35rem; text-decoration: none;" title="Scroll to Pricing Guide">
+          <i class="fa-solid fa-circle-arrow-down"></i>
+        </a>
+      </div>
+    </div>
+    <div class="card" style="display: flex; flex-direction: column; justify-content: space-between; align-items: stretch; min-height: 250px;">
+      <div style="flex-grow: 1;">
+        <div class="card-icon-wrapper"><i class="fa-solid fa-lightbulb card-icon"></i></div>
+        <h3 data-i18n="serviceConsultTitle">Consulting</h3>
+        <p data-i18n="serviceConsultDesc">Technical leadership, audits, and optimization.</p>
+      </div>
+      <div style="display: flex; justify-content: flex-end; align-items: center; margin-top: 1rem;">
+        <a href="#pricing-guide" class="card-scroll-arrow-link" style="color: var(--primary); font-size: 1.35rem; text-decoration: none;" title="Scroll to Pricing Guide">
+          <i class="fa-solid fa-circle-arrow-down"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Pricing Guide Section -->
+  <section id="pricing-guide" class="pricing-guide-section fade-in">
+    <div class="pricing-header" id="pricing-header-container">
+      <h2 data-i18n="pricingTitle">SERVICES & PRICING GUIDE</h2>
+      <p class="pricing-intro" data-i18n="pricingIntro">
+        I help businesses, startups, and agencies with a new app/site or turn outdated websites into modern, 
+        high-converting web applications. Because I handle UI/UX and Full-Stack code, you get a complete 
+        end-to-end solution without hiring multiple people.
+      </p>
+    </div>
+
+    <!-- Pricing Grid -->
+    <div class="pricing-grid" id="pricing-cards-grid">
+      <!-- Package 1 -->
+      <div class="pricing-card popular">
+        <span class="pricing-badge" data-i18n="pkgPopular">Most Popular</span>
+        <div class="pkg-tagline" data-i18n="pkg1Tagline">Complete Overhaul</div>
+        <h3 data-i18n="pkg1Title">THE FULL WEBSITE REDESIGN</h3>
+        <p class="pkg-subtitle" data-i18n="pkg1Subtitle">
+          Ideal for businesses needing an overhaul of their existing web presence.
+        </p>
+        
+        <div class="pkg-includes-title" data-i18n="pkgIncludesTitle">What's Included:</div>
+        <ul>
+          <li><i class="fa-solid fa-circle-check"></i> <span><strong data-i18n="pkg1Item1Bold">UX Audit:</strong> <span data-i18n="pkg1Item1Text">Analyzing performance, layout flaws, and user flow issues.</span></span></li>
+          <li><i class="fa-solid fa-circle-check"></i> <span><strong data-i18n="pkg1Item2Bold">UI Redesign:</strong> <span data-i18n="pkg1Item2Text">Custom Figma wireframes, desktop/mobile visual designs.</span></span></li>
+          <li><i class="fa-solid fa-circle-check"></i> <span><strong data-i18n="pkg1Item3Bold">Full-Stack Build:</strong> <span data-i18n="pkg1Item3Text">Clean, responsive frontend + secure backend code.</span></span></li>
+          <li><i class="fa-solid fa-circle-check"></i> <span><strong data-i18n="pkg1Item4Bold">Contact Systems:</strong> <span data-i18n="pkg1Item4Text">Automated contact forms (SMTP / Email services setup).</span></span></li>
+          <li><i class="fa-solid fa-circle-check"></i> <span><strong data-i18n="pkg1Item5Bold">Performance & SEO:</strong> <span data-i18n="pkg1Item5Text">Fast loading speeds, mobile-first design, & basic On-Page SEO.</span></span></li>
+        </ul>
+
+        <div class="pkg-footer">
+          <div class="pkg-timeline"><i class="fa-regular fa-calendar-days"></i> <span><span data-i18n="pkgTimelineLabel">Estimated Timeline:</span> <span data-i18n="pkg1Timeline">3 – 6 Weeks</span></span></div>
+          <div class="pkg-investment">€2,500 – €3,800 <span>EUR</span></div>
+          <div class="pkg-note" data-i18n="pkg1Note">(Final price depends on page count, database integrations, and complex features)</div>
+        </div>
+      </div>
+
+      <!-- Package 2 -->
+      <div class="pricing-card">
+        <div class="pkg-tagline" data-i18n="pkg2Tagline">Design Only</div>
+        <h3 data-i18n="pkg2Title">UI/UX DESIGN ONLY</h3>
+        <p class="pkg-subtitle" data-i18n="pkg2Subtitle">
+          Ideal for teams or clients who already have their own developers.
+        </p>
+        
+        <div class="pkg-includes-title" data-i18n="pkgIncludesTitle">What's Included:</div>
+        <ul>
+          <li><i class="fa-solid fa-circle-check"></i> <span data-i18n="pkg2Item1">Wireframes & High-Fidelity UI Screens in Figma.</span></li>
+          <li><i class="fa-solid fa-circle-check"></i> <span data-i18n="pkg2Item2">Complete Design System (Color palettes, Typography, Components).</span></li>
+          <li><i class="fa-solid fa-circle-check"></i> <span data-i18n="pkg2Item3">Clickable Interactive Prototype for User Testing.</span></li>
+          <li><i class="fa-solid fa-circle-check"></i> <span data-i18n="pkg2Item4">Developer-Ready Handoff (Assets, Spacing, Specs).</span></li>
+        </ul>
+
+        <div class="pkg-footer">
+          <div class="pkg-timeline"><i class="fa-regular fa-calendar-days"></i> <span><span data-i18n="pkgTimelineLabel">Estimated Timeline:</span> <span data-i18n="pkg2Timeline">1 – 3 Weeks</span></span></div>
+          <div class="pkg-investment">€1,100 – €2,100 <span>EUR</span></div>
+        </div>
+      </div>
+
+      <!-- Package 3 -->
+      <div class="pricing-card">
+        <div class="pkg-tagline" data-i18n="pkg3Tagline">Development Only</div>
+        <h3 data-i18n="pkg3Title">FULL-STACK DEVELOPMENT ONLY</h3>
+        <p class="pkg-subtitle" data-i18n="pkg3Subtitle">
+          Ideal for designers needing a developer to bring their Figma designs to life.
+        </p>
+        
+        <div class="pkg-includes-title" data-i18n="pkgIncludesTitle">What's Included:</div>
+        <ul>
+          <li><i class="fa-solid fa-circle-check"></i> <span data-i18n="pkg3Item1">Pixel-perfect conversion from Figma to code (HTML, JS, PHP, etc.).</span></li>
+          <li><i class="fa-solid fa-circle-check"></i> <span data-i18n="pkg3Item2">API Integration, Database setup, and Server configuration.</span></li>
+          <li><i class="fa-solid fa-circle-check"></i> <span data-i18n="pkg3Item3">Deployment to live hosting (Vercel, Render, AWS).</span></li>
+        </ul>
+
+        <div class="pkg-footer" style="margin-top: auto;">
+          <div class="pkg-timeline"><i class="fa-regular fa-calendar-days"></i> <span><span data-i18n="pkgTimelineLabel">Estimated Timeline:</span> <span data-i18n="pkg2Timeline">3 – 5 Weeks</span></span></div>
+          <div class="pkg-investment">€1,700 – €4,700 <span>EUR</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hourly & Retainer Rates Section -->
+    <div class="rates-section" id="rates-section-container">
+      <div class="rates-card">
+        <h3><i class="fa-solid fa-clock-rotate-left"></i> <span data-i18n="hourlyRatesTitle">Hourly Rates</span></h3>
+        <p data-i18n="hourlyRatesDesc">For ongoing maintenance, small feature upgrades, or technical consulting:</p>
+        <div class="rates-item">
+          <span class="rates-label" data-i18n="hourlyRateLabel">Hourly Rate:</span>
+          <span class="rates-value" data-i18n="hourlyRateVal">€47 – €67 / hour</span>
+        </div>
+      </div>
+      <div class="rates-card">
+        <h3><i class="fa-solid fa-shield-halved"></i> <span data-i18n="retainerTitle">Retainer Rates</span></h3>
+        <p data-i18n="retainerDesc">For active priority support, regular system updates, security, and performance tuning:</p>
+        <div class="rates-item">
+          <span class="rates-label" data-i18n="retainerLabel">Monthly Care Retainer:</span>
+          <span class="rates-value" data-i18n="retainerVal">€490 / month</span>
+        </div>
+        <p style="font-size: 0.8rem; font-style: italic;" data-i18n="retainerNote">(Includes 8 hours of updates, security, and hosting checks)</p>
+      </div>
+    </div>
+
+    <!-- Process Section -->
+    <div class="process-container" id="process-section-container">
+      <h3 data-i18n="processTitle">HOW THE PROCESS WORKS</h3>
+      <div class="process-steps">
+        <div class="process-step">
+          <div class="step-num">1</div>
+          <div class="step-title" data-i18n="step1Title">Discovery Call</div>
+          <div class="step-desc" data-i18n="step1Desc">(30 mins) — We review your goals, targets, and project scope.</div>
+        </div>
+        <div class="process-step">
+          <div class="step-num">2</div>
+          <div class="step-title" data-i18n="step2Title">Proposal & Deposit</div>
+          <div class="step-desc" data-i18n="step2Desc">50% upfront payment, 50% upon final delivery of work.</div>
+        </div>
+        <div class="process-step">
+          <div class="step-num">3</div>
+          <div class="step-title" data-i18n="step3Title">Design & Code Sprints</div>
+          <div class="step-desc" data-i18n="step3Desc">Weekly check-ins, transparent iterations, and live staging previews.</div>
+        </div>
+        <div class="process-step">
+          <div class="step-num">4</div>
+          <div class="step-title" data-i18n="step4Title">Launch & Handoff</div>
+          <div class="step-desc" data-i18n="step4Desc">We push your site live, run final QA, and deliver all complete source files.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CTA Section -->
+    <div class="cta-card" id="cta-card-container">
+      <h3 data-i18n="ctaTitle">Ready to transform your website?</h3>
+      <p data-i18n="ctaDesc">Let's collaborate to build your next modern, high-converting web application.</p>
+      <a href="mailto:bellanaevents@gmail.com" class="cta-email">
+        <i class="fa-solid fa-envelope-open-text"></i> bellanaevents@gmail.com
+      </a>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-top">
+      <div class="footer-left">
+        <a href="contact.html" class="footer-link"><i class="fa-solid fa-envelope"></i>bellanaevents@gmail.com</a>
+      </div>
+      <div class="footer-right">
+        <a href="https://www.behance.net/Swentechx" target="_blank" rel="noopener noreferrer" class="footer-link"><i class="fa-brands fa-behance"></i>Behance Profile</a>
+        <a href="https://github.com/bellanaevents-swen" target="_blank" rel="noopener noreferrer" class="footer-link"><i class="fa-brands fa-github"></i>GitHub Profile</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© <span id="year"></span> SwenTech. Built with passion and clean code.</p>
+      <p class="footer-meta">Based in Europe • English • Hungarian • Romanian</p>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
