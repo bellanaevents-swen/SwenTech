@@ -1,0 +1,8 @@
+{
+  "name": "Swen Portfolio",
+  "description": "Professional Software Engineer Portfolio building scalable software solutions",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
