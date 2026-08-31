@@ -333,50 +333,14 @@ app.post("/api/upload", upload.single("file"), async (req, res) => {
   }
 });
 
-// Specific route mappings to match the HTML references to files in their new folders
-app.get("/css/style.css", (req, res) => {
-  res.sendFile(path.join(__dirname, "..", "css", "style.css"));
-});
-
-app.get("/js/main.js", (req, res) => {
-  res.sendFile(path.join(__dirname, "..", "js", "main.js"));
-});
-
-app.get("/assets/images/LogoSwen.png", (req, res) => {
-  res.sendFile(path.join(__dirname, "..", "images", "LogoSwen.png"));
-});
-
-app.get("/assets/images/background1.png", (req, res) => {
-  res.sendFile(path.join(__dirname, "..", "images", "background1.png"));
-});
-
-// Serve the rest of the static files from the root directory with html extension support
-app.use(express.static(path.join(__dirname, ".."), { extensions: ["html"] }));
+// Serve static files from the public directory (including html extensions)
+app.use(express.static(path.join(__dirname, "..", "public"), { extensions: ["html"] }));
 
 // Fallback for SPA routing/direct access to serve index.html for unknown routes
 app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "..", "index.html"));
+  res.sendFile(path.join(__dirname, "..", "public", "index.html"));
 });
 
 app.listen(PORT, "0.0.0.0", () => {
   console.log(`Web server running successfully on http://0.0.0.0:${PORT}`);
-});
-
-// Keep app.listen for local development, but export the app for Vercel
-if (process.env.NODE_ENV !== 'production') {
-  const PORT = process.env.PORT || 5000;
-  app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
-}
-
-// Export the Express instance
-export default app;
-
-// Add this route to check variable status
-app.get('/api/test-env', (req, res) => {
-  res.json({
-    mongoConfigured: !!process.env.MONGODB_URI,
-    cloudinaryCloudName: process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME || "Missing",
-    cloudinaryKeyConfigured: !!process.env.CLOUDINARY_API_KEY,
-    nodeEnv: process.env.NODE_ENV
-  });
 });
