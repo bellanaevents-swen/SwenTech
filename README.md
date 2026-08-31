@@ -12,11 +12,6 @@ A responsive website and contact system built with JS, HTML, and modern UI/UX pr
 - **Frontend:** HTML5, CSS3, JavaScript
 - **Backend:** JavaScript
 - **Email:** formspree.io
-- **Hosting:** GitHub Pages
+- **Hosting:** vercel.com
 
-## 🚀 How to Run Locally
-
-1. Clone the repository:
-   ```bash
-   git clone [https://github.com/yourusername/your-repo.name.git](https://github.com/yourusername/your-repo.name.git)
-Install dependencies:
+## 🚀 Other information Contact me
