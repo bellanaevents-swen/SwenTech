@@ -5,9 +5,8 @@
   "type": "module",
   "main": "backend/server.js",
   "scripts": {
-    "dev": "node backend/server.js",
-    "build": "echo 'No build step required'",
-    "lint": "echo 'No lint step required'",
+"dev": "node backend/server.js",
+    "build": "echo 'Building Express API'",
     "start": "node backend/server.js"
   },
   "dependencies": {

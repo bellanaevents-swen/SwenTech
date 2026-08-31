@@ -361,3 +361,12 @@ app.get("*", (req, res) => {
 app.listen(PORT, "0.0.0.0", () => {
   console.log(`Web server running successfully on http://0.0.0.0:${PORT}`);
 });
+
+// Keep app.listen for local development, but export the app for Vercel
+if (process.env.NODE_ENV !== 'production') {
+  const PORT = process.env.PORT || 5000;
+  app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+}
+
+// Export the Express instance
+export default app;
