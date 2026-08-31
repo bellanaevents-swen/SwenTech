@@ -370,3 +370,13 @@ if (process.env.NODE_ENV !== 'production') {
 
 // Export the Express instance
 export default app;
+
+// Add this route to check variable status
+app.get('/api/test-env', (req, res) => {
+  res.json({
+    mongoConfigured: !!process.env.MONGODB_URI,
+    cloudinaryCloudName: process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME || "Missing",
+    cloudinaryKeyConfigured: !!process.env.CLOUDINARY_API_KEY,
+    nodeEnv: process.env.NODE_ENV
+  });
+});
