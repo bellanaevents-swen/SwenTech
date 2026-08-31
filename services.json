@@ -1,0 +1,261 @@
+{
+  "hero": {
+    "title_en": "Services",
+    "title_hu": "Szolgáltatások",
+    "title_ro": "Servicii",
+    "subtitle_en": "High-quality professional digital solutions tailored to your business needs.",
+    "subtitle_hu": "Kiváló minőségű professzionális digitális megoldások az Ön vállalkozásának igényeire szabva.",
+    "subtitle_ro": "Soluții digitale profesionale de înaltă calitate, adaptate nevoilor afacerii tale."
+  },
+  "topServices": [
+    {
+      "id": 1,
+      "icon": "fa-solid fa-laptop-code",
+      "title_en": "Web Applications",
+      "title_hu": "Webalkalmazások",
+      "title_ro": "Aplicații Web",
+      "desc_en": "Custom responsive applications using modern frameworks.",
+      "desc_hu": "Egyedi, reszponzív alkalmazások modern keretrendszerekkel.",
+      "desc_ro": "Aplicații personalizate și responsive folosind framework-uri moderne."
+    },
+    {
+      "id": 2,
+      "icon": "fa-solid fa-bezier-curve",
+      "title_en": "UI/UX Design",
+      "title_hu": "UI/UX Tervezés",
+      "title_ro": "Design UI/UX",
+      "desc_en": "Beautiful, user-centered, and intuitive digital interfaces crafted with precision.",
+      "desc_hu": "Gyönyörű, felhasználóközpontú és intuitív digitális felületek tervezése nagy pontossággal.",
+      "desc_ro": "Interfețe digitale frumoase, intuitive și centrate pe utilizator, create cu precizie."
+    },
+    {
+      "id": 3,
+      "icon": "fa-solid fa-lightbulb",
+      "title_en": "Consulting",
+      "title_hu": "Tanácsadás",
+      "title_ro": "Consultanță",
+      "desc_en": "Technical leadership, audits, and optimization.",
+      "desc_hu": "Műszaki vezetés, audit és optimalizáció.",
+      "desc_ro": "Leadership tehnic, audit și optimizare."
+    }
+  ],
+  "pricingHeader": {
+    "title_en": "SERVICES & PRICING GUIDE",
+    "title_hu": "SZOLGÁLTATÁSOK ÉS ÁRAK",
+    "title_ro": "GHID DE SERVICII ȘI PREȚURI",
+    "intro_en": "I help businesses, startups, and agencies with a new app/site or turn outdated websites into modern, high-converting web applications. Because I handle UI/UX and Full-Stack code, you get a complete end-to-end solution without hiring multiple people.",
+    "intro_hu": "Segítek vállalkozásoknak, startupoknak és ügynökségeknek új alkalmazások/oldalak létrehozásában, vagy az elavult webhelyek modern, magas konverziós arányú webalkalmazásokká alakításában. Mivel mind a UI/UX tervezést, mind a Full-Stack fejlesztést egy kézben tartom, teljes körű végpontok közötti megoldást kap anélkül, hogy több embert kellene felbérelnie.",
+    "intro_ro": "Ajut companiile, startup-urile și agențiile cu aplicații/site-uri noi sau prin transformarea site-urilor învechite în aplicații web moderne și cu conversie ridicată. Deoarece mă ocup atât de designul UI/UX, cât și de codul Full-Stack, obțineți o soluție completă cap-la-cap fără a fi nevoie să angajați mai multe persoane."
+  },
+  "packages": [
+    {
+      "id": 1,
+      "isPopular": true,
+      "badge_en": "Most Popular",
+      "badge_hu": "Legnépszerűbb",
+      "badge_ro": "Cel Mai Popular",
+      "tagline_en": "Complete Overhaul",
+      "tagline_hu": "Teljes Újjáépítés",
+      "tagline_ro": "Reconstrucție Completă",
+      "title_en": "THE FULL WEBSITE REDESIGN",
+      "title_hu": "A TELJES WEBOLDAL ÚJJÁÉPÍTÉS",
+      "title_ro": "RECONSTRUCȚIA COMPLETĂ A SITE-ULUI",
+      "subtitle_en": "Ideal for businesses needing an overhaul of their existing web presence.",
+      "subtitle_hu": "Ideális olyan vállalkozások számára, amelyeknek a meglévő online jelenlétük teljes átalakítására van szükségük.",
+      "subtitle_ro": "Ideal pentru companiile care au nevoie de o revizuire completă a prezenței lor online existente.",
+      "items_en": [
+        {"bold": "UX Audit:", "text": " Analyzing performance, layout flaws, and user flow issues."},
+        {"bold": "UI Redesign:", "text": " Custom Figma wireframes, desktop/mobile visual designs."},
+        {"bold": "Full-Stack Build:", "text": " Clean, responsive frontend + secure backend code."},
+        {"bold": "Contact Systems:", "text": " Automated contact forms (SMTP / Email services setup)."},
+        {"bold": "Performance & SEO:", "text": " Fast loading speeds, mobile-first design, & basic On-Page SEO."}
+      ],
+      "items_hu": [
+        {"bold": "UX Audit:", "text": " A teljesítmény, az elrendezési hibák és a felhasználói folyamatok elemzése."},
+        {"bold": "UI Újratervezés:", "text": " Egyedi Figma drótvázak, asztali és mobil vizuális tervek."},
+        {"bold": "Full-Stack Fejlesztés:", "text": " Tiszta, reszponzív frontend + biztonságos backend kód."},
+        {"bold": "Kapcsolati Rendszerek:", "text": " Automatizált kapcsolatfelvételi űrlapok (SMTP / Email szolgáltatások beállítása)."},
+        {"bold": "Teljesítmény és SEO:", "text": " Gyors betöltési sebesség, mobilbarát kialakítás és alapvető keresőoptimalizálás (On-Page SEO)."}
+      ],
+      "items_ro": [
+        {"bold": "Audit UX:", "text": " Analizarea performanței, a defectelor de layout și a fluxului de utilizatori."},
+        {"bold": "Redesign UI:", "text": " Wireframe-uri personalizate în Figma, design vizual complet pentru desktop și mobil."},
+        {"bold": "Dezvoltare Full-Stack:", "text": " Cod frontend curat și responsive + cod backend securizat."},
+        {"bold": "Sisteme de Contact:", "text": " Formulare de contact automatizate (configurare servicii SMTP / Email)."},
+        {"bold": "Performanță și SEO:", "text": " Viteze rapide de încărcare, design mobile-first și optimizare SEO de bază (On-Page SEO)."}
+      ],
+      "timeline_en": "3 – 6 Weeks",
+      "timeline_hu": "3 – 6 hét",
+      "timeline_ro": "3 – 6 Săptămâni",
+      "investment": "€2,500 – €3,800 EUR",
+      "note_en": "(Final price depends on page count, database integrations, and complex features)",
+      "note_hu": "(A végső ár az oldalszámtól, az adatbázis-integrációktól és az egyedi funkcióktól függ)",
+      "note_ro": "(Prețul final depinde de numărul de pagini, integrările de baze de date și complexitatea funcționalităților)"
+    },
+    {
+      "id": 2,
+      "isPopular": false,
+      "badge_en": "",
+      "badge_hu": "",
+      "badge_ro": "",
+      "tagline_en": "Design Only",
+      "tagline_hu": "Csak Design",
+      "tagline_ro": "Doar Design",
+      "title_en": "UI/UX DESIGN ONLY",
+      "title_hu": "CSAK UI/UX TERVEZÉS",
+      "title_ro": "DOAR DESIGN UI/UX",
+      "subtitle_en": "Ideal for teams or clients who already have their own developers.",
+      "subtitle_hu": "Ideális olyan csapatok vagy ügyfelek számára, akik már rendelkeznek saját fejlesztőkkel.",
+      "subtitle_ro": "Ideal pentru echipe sau clienți care au deja proprii lor dezvoltatori.",
+      "items_en": [
+        {"bold": "", "text": "Wireframes & High-Fidelity UI Screens in Figma."},
+        {"bold": "", "text": "Complete Design System (Color palettes, Typography, Components)."},
+        {"bold": "", "text": "Clickable Interactive Prototype for User Testing."},
+        {"bold": "", "text": "Developer-Ready Handoff (Assets, Spacing, Specs)."}
+      ],
+      "items_hu": [
+        {"bold": "", "text": "Drótvázak és nagy hűségű UI felületek Figmában."},
+        {"bold": "", "text": "Teljes design rendszer (színpaletták, tipográfia, komponensek)."},
+        {"bold": "", "text": "Kattintható, interaktív prototípus a felhasználói teszteléshez."},
+        {"bold": "", "text": "Fejlesztésre kész átadás (eszközök, térközök, specifikációk)."}
+      ],
+      "items_ro": [
+        {"bold": "", "text": "Wireframe-uri și ecrane UI de înaltă fidelitate în Figma."},
+        {"bold": "", "text": "Sistem complet de design (palete de culori, tipografie, componente)."},
+        {"bold": "", "text": "Prototip interactiv și clicabil pentru testarea cu utilizatorii."},
+        {"bold": "", "text": "Predare pregătită pentru dezvoltatori (active, spațieri, specificații)."}
+      ],
+      "timeline_en": "1 – 3 Weeks",
+      "timeline_hu": "1 – 3 hét",
+      "timeline_ro": "1 – 3 Săptămâni",
+      "investment": "€1,100 – €2,100 EUR",
+      "note_en": "",
+      "note_hu": "",
+      "note_ro": ""
+    },
+    {
+      "id": 3,
+      "isPopular": false,
+      "badge_en": "",
+      "badge_hu": "",
+      "badge_ro": "",
+      "tagline_en": "Development Only",
+      "tagline_hu": "Csak Fejlesztés",
+      "tagline_ro": "Doar Dezvoltare",
+      "title_en": "FULL-STACK DEVELOPMENT ONLY",
+      "title_hu": "CSAK FULL-STACK FEJLESZTÉS",
+      "title_ro": "DOAR DEZVOLTARE FULL-STACK",
+      "subtitle_en": "Ideal for designers needing a developer to bring their Figma designs to life.",
+      "subtitle_hu": "Ideális olyan tervezők számára, akiknek fejlesztőre van szükségük a Figma tervek életre keltéséhez.",
+      "subtitle_ro": "Ideal pentru designeri care au nevoie de un dezvoltator pentru a le pune în practică design-urile din Figma.",
+      "items_en": [
+        {"bold": "", "text": "Pixel-perfect conversion from Figma to code (HTML, JS, PHP, etc.)."},
+        {"bold": "", "text": "API Integration, Database setup, and Server configuration."},
+        {"bold": "", "text": "Deployment to live hosting (Vercel, Render, AWS)."}
+      ],
+      "items_hu": [
+        {"bold": "", "text": "Pixelpontos konverzió Figma tervekből kódba (HTML, JS, PHP stb.)."},
+        {"bold": "", "text": "API integráció, adatbázis-beállítás és szerverkonfiguráció."},
+        {"bold": "", "text": "Élesítés élő tárhelyre (Vercel, Render, AWS)."}
+      ],
+      "items_ro": [
+        {"bold": "", "text": "Conversie pixel-perfect din Figma în cod (HTML, JS, PHP etc.)."},
+        {"bold": "", "text": "Integrare API, configurare baze de date și configurare server."},
+        {"bold": "", "text": "Lansare pe găzduire live (Vercel, Render, AWS)."}
+      ],
+      "timeline_en": "3 – 5 Weeks",
+      "timeline_hu": "3 – 5 hét",
+      "timeline_ro": "3 – 5 Săptămâni",
+      "investment": "€1,700 – €4,700 EUR",
+      "note_en": "",
+      "note_hu": "",
+      "note_ro": ""
+    }
+  ],
+  "rates": {
+    "hourlyTitle_en": "Hourly Rates",
+    "hourlyTitle_hu": "Óradíjak",
+    "hourlyTitle_ro": "Tarife Orare",
+    "hourlyDesc_en": "For ongoing maintenance, small feature upgrades, or technical consulting:",
+    "hourlyDesc_hu": "Folyamatos karbantartás, kisebb funkcióbővítések vagy technikai tanácsadás esetén:",
+    "hourlyDesc_ro": "Pentru întreținere continuă, upgrade-uri de funcționalități mici sau consultanță tehnică:",
+    "hourlyLabel_en": "Hourly Rate:",
+    "hourlyLabel_hu": "Óradíj:",
+    "hourlyLabel_ro": "Tarif Orar:",
+    "hourlyValue_en": "€47 – €67 / hour",
+    "hourlyValue_hu": "47 € – 67 € / óra",
+    "hourlyValue_ro": "47 € – 67 € / oră",
+
+    "retainerTitle_en": "Retainer Rates",
+    "retainerTitle_hu": "Rendelkezésre állási díjak",
+    "retainerTitle_ro": "Abonamente Lunare",
+    "retainerDesc_en": "For active priority support, regular system updates, security, and performance tuning:",
+    "retainerDesc_hu": "Aktív prioritásos támogatás, rendszeres rendszerfrissítések, biztonsági és teljesítményhangolás:",
+    "retainerDesc_ro": "Pentru asistență prioritară activă, actualizări periodice, securitate și optimizări de performanță:",
+    "retainerLabel_en": "Monthly Care Retainer:",
+    "retainerLabel_hu": "Havi karbantartási díj:",
+    "retainerLabel_ro": "Abonament lunar de mentenanță:",
+    "retainerValue_en": "€490 / month",
+    "retainerValue_hu": "490 € / hó",
+    "retainerValue_ro": "490 € / lună",
+    "retainerNote_en": "(Includes 8 hours of updates, security, and hosting checks)",
+    "retainerNote_hu": "(Magában foglal 8 órányi frissítést, biztonsági és tárhely-ellenőrzést)",
+    "retainerNote_ro": "(Include 8 ore de actualizări, verificări de securitate și de găzduire)"
+  },
+  "process": {
+    "title_en": "HOW THE PROCESS WORKS",
+    "title_hu": "HOGYAN MŰKÖDIK A FOLYAMAT",
+    "title_ro": "CUM FUNCȚIONEAZĂ PROCESUL",
+    "steps": [
+      {
+        "id": 1,
+        "num": "1",
+        "title_en": "Discovery Call",
+        "title_hu": "Konzultáció",
+        "title_ro": "Apel de Descoperire",
+        "desc_en": "(30 mins) — We review your goals, targets, and project scope.",
+        "desc_hu": "(30 perc) — Áttekintjük a céljait, elvárásait és a projekt hatókörét.",
+        "desc_ro": "(30 min) — Analizăm obiectivele, țintele și scopul proiectului dumneavoastră."
+      },
+      {
+        "id": 2,
+        "num": "2",
+        "title_en": "Proposal & Deposit",
+        "title_hu": "Ajánlat és előleg",
+        "title_ro": "Propunere și Depozit",
+        "desc_en": "50% upfront payment, 50% upon final delivery of work.",
+        "desc_hu": "50% előleg a kezdéskor, 50% a végső átadáskor.",
+        "desc_ro": "Plată în avans de 50%, restul de 50% la livrarea finală a proiectului."
+      },
+      {
+        "id": 3,
+        "num": "3",
+        "title_en": "Design & Code Sprints",
+        "title_hu": "Design és kód sprintek",
+        "title_ro": "Sprinturi de Design & Cod",
+        "desc_en": "Weekly check-ins, transparent iterations, and live staging previews.",
+        "desc_hu": "Heti egyeztetések, átlátható iterációk és élő tesztelési felület.",
+        "desc_ro": "Sesiuni săptămânale de feedback, iterații transparente și previzualizări live."
+      },
+      {
+        "id": 4,
+        "num": "4",
+        "title_en": "Launch & Handoff",
+        "title_hu": "Indítás és átadás",
+        "title_ro": "Lansare și Predare",
+        "desc_en": "We push your site live, run final QA, and deliver all complete source files.",
+        "desc_hu": "Élesítjük a webhelyet, elvégezzük a végső teszteket, és átadjuk az összes forrásfájlt.",
+        "desc_ro": "Lansăm site-ul live, efectuăm testele finale de calitate și predăm toate fișierele sursă."
+      }
+    ]
+  },
+  "cta": {
+    "title_en": "Ready to transform your website?",
+    "title_hu": "Készen áll a weboldala átalakítására?",
+    "title_ro": "Sunteți gata să vă transformați site-ul?",
+    "desc_en": "Let's collaborate to build your next modern, high-converting web application.",
+    "desc_hu": "Dolgozzunk együtt a következő modern, magas konverziós arányú webalkalmazásán.",
+    "desc_ro": "Să colaborăm pentru a construi următoarea dumneavoastră aplicație web modernă și cu conversie ridicată.",
+    "email": "bellanaevents@gmail.com"
+  }
+}

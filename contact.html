@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact | Swen</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+
+
+<header class="header">
+<div class="container nav">
+<a href="index.html" class="logo">
+  <img src="images/LogoSwen.png" alt="Swen">
+</a>
+<nav>
+  <a href="about.html"><i class="fa-solid fa-user"></i> <span data-i18n="navAbout">About</span></a>
+  <a href="services.html"><i class="fa-solid fa-code"></i> <span data-i18n="navServices">Services</span></a>
+  <a href="projects.html"><i class="fa-solid fa-diagram-project"></i> <span data-i18n="navProjects">Projects</span></a>
+  <a href="contact.html"><i class="fa-solid fa-envelope"></i> <span data-i18n="navContact">Contact</span></a>
+</nav>
+<div class="language-switcher">
+<select id="languageSelect">
+<option value="en">English</option>
+<option value="hu">Magyar</option>
+<option value="ro">Română</option>
+<option value="it">Italiano</option>
+</select>
+</div>
+</div>
+</header>
+
+<main class="container">
+  <section class="page-hero fade-in">
+  <div class="container">
+    <h1 data-i18n="contactTitle">Contact</h1>
+    <p data-i18n="contactHeroText">
+      Get in touch to discuss your project or collaboration.
+    </p>
+  </div>
+</section>
+  <form id="contactForm" action="https://formspree.io/f/meeylqzp" method="POST">
+    <input type="text" id="contactNameInput" name="name" placeholder="" data-i18n-placeholder="contactName" required>
+    <input type="email" id="contactEmailInput" name="email" placeholder="" data-i18n-placeholder="contactEmail" required>
+    <textarea id="contactMessageInput" name="message" rows="5" placeholder="" data-i18n-placeholder="contactMessage" required></textarea>
+    <button class="btn" type="submit" data-i18n="contactButton">Send Message</button>
+  </form>
+</main>
+
+
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-top">
+      <div class="footer-left">
+        <a href="contact.html" class="footer-link"><i class="fa-solid fa-envelope"></i>bellanaevents@gmail.com</a>
+      </div>
+      <div class="footer-right">
+        <a href="https://www.behance.net/Swentechx" target="_blank" rel="noopener noreferrer" class="footer-link" id="footer-behance-link"><i class="fa-brands fa-behance"></i>Behance Profile</a>
+        <a href="https://github.com/bellanaevents-swen" target="_blank" rel="noopener noreferrer" class="footer-link" id="footer-github-link"><i class="fa-brands fa-github"></i>GitHub Profile</a>
+        <a href="https://linkedin.com/in/swentech" target="_blank" rel="noopener noreferrer" class="footer-link" id="footer-linkedin-link"><i class="fa-brands fa-linkedin"></i>LinkedIn Profile</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© <span id="year"></span> SwenTech. Built with passion and clean code.</p>
+      <p class="footer-meta">Based in Europe • English • Hungarian • Romanian</p>
+    </div>
+  </div>
+</footer>
+
+
+<script src="js/main.js"></script>
+</body>
+</html>
