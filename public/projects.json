@@ -181,4 +181,18 @@
     "image": "https://res.cloudinary.com/kgdmg6su/image/upload/v1788194277/swen_portfolio/projects/wxosb0fwlet4lfvh1te1.png",
     "link": "#"
   }
+  ,{
+  "id": 14,
+    "title_en": "Salsa Moments",
+    "title_hu": "Salsa Moments",
+    "title_ro": "Salsa Moments",
+    "desc_en": "Salsa Moments – High-Conversion Landing Page & UI/UX Design. A modern, progressive landing page designed to bring the energy and passion of salsa to the digital space and turn visitors into registered dancers. Built with an adaptive, scalable design system, this landing page easily scales from full desktop view to mobile screens using flexible Auto Layout grids and fluid typography. Highlights: Progressive landing page architecture, high-conversion hero section & CTA placement, mobile-responsive readiness, and a refined metallic color system. Tech & Tools Used: Figma (Design System, Auto Layout 5.0, Interactive Components, Variables/Tokens, Variants), HTML5/CSS3 (Design handoff specs).",
+    "desc_hu": "Salsa Moments – Magas konverziójú landoló oldal és UI/UX tervezés. Egy modern, progresszív landoló oldal, amelyet arra terveztek, hogy elhozza a salsa energiáját és szenvedélyét a digitális térbe, és a látogatókat regisztrált táncosokká alakítsa. Adaptív, méretezhető dizájnrendszerrel épült, ez az oldal rugalmas Auto Layout rácsok és folyékony tipográfia segítségével könnyedén skálázódik asztali nézetről mobilképernyőkre. Főbb jellemzők: Progresszív landoló oldal architektúra, magas konverziójú hős szekció és CTA elhelyezés, mobilra optimalizált kialakítás és finomított fémes színrendszer. Használt technológiák és eszközök: Figma (Design System, Auto Layout 5.0, Interaktív komponensek, Változók/Tokenek, Változatok), HTML5/CSS3 (Dizájn átadási specifikációk).",
+    "desc_ro": "Salsa Moments – Landing Page cu conversie ridicată și Design UI/UX. O pagină de destinație modernă, progresivă, concepută pentru a aduce energia și pasiunea falsei în spațiul digital și pentru a transforma vizitatorii în dansatori înregistrați. Construită cu un sistem de design adaptiv și scalabil, această pagină se scalează cu ușurință de la vizualizarea completă pe desktop la ecranele mobile folosind grile flexibile Auto Layout și tipografie fluidă. Aspecte principale: Arhitectură progresivă a paginii de destinație, secțiune hero cu conversie ridicată și plasare CTA, pregătire pentru receptivitate mobilă și un sistem de culori metalice rafinat. Tehnologii și instrumente utilizate: Figma (Design System, Auto Layout 5.0, Componente interactive, Variabile/Token-uri, Variante), HTML5/CSS3 (Specificații pentru predarea designului).",
+    "tag_en": "UI/UX Design",
+    "tag_hu": "UI/UX Tervezés",
+    "tag_ro": "Design UI/UX",
+    "image": "https://res.cloudinary.com/kgdmg6su/image/upload/v1788279680/hero-section2.png",
+    "link": "#"
+  }
 ]
