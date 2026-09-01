@@ -167,4 +167,18 @@
     "image": "https://res.cloudinary.com/kgdmg6su/image/upload/v1788180598/swen_portfolio/projects/o3qkvzccrbhlepjts6cs.png",
     "link": "#"
   }
+  ,{
+    "id": 13,
+    "title_en": "Fancy Furniture",
+    "title_hu": "Fancy Furniture",
+    "title_ro": "Fancy Furniture",
+    "desc_en": "A luxury e-commerce storefront showcasing handcrafted furniture collections across Living Room, Bedroom, Dining Room, Home Office, and Outdoor spaces. Features product details with high-resolution imagery, material specifications, customer reviews, stock status, and add-to-cart capabilities. Interactive Showroom & Appointment Booking allows users to explore physical locations and schedule private design consultations. The Digital Brand Hub includes custom branding features, promotional discount management, user account authentication, and order tracking.",
+    "desc_hu": "Luxus e-kereskedelmi áruház, amely kézműves bútorkollekciókat mutat be nappaliba, hálószobába, étkezőbe, otthoni irodába és kültéri terekbe. A termékoldalak nagy felbontású képeket, anyagjellemzőket, vásárlói véleményeket, készletinformációkat és kosárba helyezési lehetőséget kínálnak. Az Interaktív Bemutatóterem és Időpontfoglalás funkció lehetővé teszi a fizikai helyszínek felfedezését és privát dizájntanácsadás foglalását. A Digitális Márkaközpont egyedi márkaépítési funkciókat, promóciós kedvezménykezelést, felhasználói fiók hitelesítést és rendeléskövetési előzményeket tartalmaz.",
+    "desc_ro": "Un magazin de comerț electronic de lux care prezintă colecții de mobilier realizat manual pentru living, dormitor, sufragerie, birou și spații exterioare. Funcționalitățile includ detalii despre produse cu imagini de înaltă rezoluție, specificații ale materialelor, recenzii ale clienților, stadiul stocurilor și adăugare în coș. Showroom-ul Interactiv și Rezervarea de Programări permit utilizatorilor să exploreze locațiile fizice și să programeze consultații private de design. Hub-ul Digital al Brandului include funcții personalizate de branding, gestionarea reducerilor, autentificarea conturilor de utilizator și istoricul urmăririi comenzilor.",
+    "tag_en": "Web Application",
+    "tag_hu": "Webalkalmazás",
+    "tag_ro": "Aplicație Web",
+    "image": "https://res.cloudinary.com/kgdmg6su/image/upload/v1788194277/swen_portfolio/projects/wxosb0fwlet4lfvh1te1.png",
+    "link": "#"
+  }
 ]
