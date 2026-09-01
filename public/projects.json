@@ -153,4 +153,18 @@
     "image": "images/project3.svg",
     "link": "#"
   }
+  ,{
+    "id": 12,
+    "title_en": "Budget Calculator",
+    "title_hu": "Költségvetés Kalkulátor",
+    "title_ro": "Calculator de Buget",
+    "desc_en": "A high-performance, privacy-focused Budget Calculator built as a lightweight Progressive Web App (PWA). Designed with Zero-Knowledge Client Encryption, your financial data never leaves your device unencrypted. Enjoy seamless local management, zero-latency performance, and total offline capability. Key Features: Zero-Knowledge Security (AES-256-GCM, PBKDF2), Biometric Authentication (WebAuthn Passkeys), 100% Offline-Capable (Service Worker), Modular & Lightweight ES Modules, and Multilingual support. Programing Languages: JavaScript (68%), HTML (26%), CSS (5%), TypeScript (1%). This application was created to help individuals track their spending habits and take control of their financial well-being.",
+    "desc_hu": "Nagy teljesítményű, adatvédelemre fókuszáló Költségvetés Kalkulátor, könnyű PWA-ként megépítve. Zéró Tudású kliensoldali titkosítással készült, így a pénzügyi adatok soha nem hagyják el titkosítatlanul az eszközt. Élvezd a zökkenőmentes helyi kezelést, a zéró késleltetésű teljesítményt és a teljes offline működést. Főbb jellemzők: Zéró Tudású Biztonság (AES-256-GCM, PBKDF2), Biometrikus Hitelesítés (WebAuthn Passkeys), 100% Offline Működés (Service Worker), Moduláris és Könnyű ES Modulok, valamint Többnyelvű támogatás. Programozási nyelvek: JavaScript (68%), HTML (26%), CSS (5%), TypeScript (1%). Az alkalmazás célja, hogy segítsen nyomon követni a költési szokásokat és átvenni az irányítást a pénzügyi jólét felett.",
+    "desc_ro": "Un Calculator de Buget de înaltă performanță, axat pe confidențialitate, construit ca o aplicație web progresivă (PWA) ușoară. Proiectat cu Criptare Client Zero-Knowledge, datele tale financiare nu părăsesc niciodată dispozitivul necriptate. Bucură-te de o gestionare locală fără cusur, performanță cu latență zero și capabilitate offline completă. Caracteristici Cheie: Securitate Zero-Knowledge (AES-256-GCM, PBKDF2), Autentificare Biometrică (WebAuthn Passkeys), Capabilitate 100% Offline (Service Worker), Module ES Modulare și Ușoare, și suport Multilingv. Limbaje de programare: JavaScript (68%), HTML (26%), CSS (5%), TypeScript (1%). Această aplicație a fost creată pentru a ajuta utilizatorii să-și urmărească obiceiurile de cheltuieli și să preia controlul asupra bunăstării lor financiare.",
+    "tag_en": "Web Application",
+    "tag_hu": "Webalkalmazás",
+    "tag_ro": "Aplicație Web",
+    "image": "https://res.cloudinary.com/kgdmg6su/image/upload/v1788180598/swen_portfolio/projects/o3qkvzccrbhlepjts6cs.png",
+    "link": "#"
+  }
 ]

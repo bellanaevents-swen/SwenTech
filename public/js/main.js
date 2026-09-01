@@ -1403,7 +1403,7 @@ async function getProjects() {
   }
 
   try {
-    const freshDefaultRes = await fetch('projects.json').catch(() => null);
+    const freshDefaultRes = await fetch(`projects.json?t=${new Date().getTime()}`, { cache: 'no-store' }).catch(() => null);
     if (freshDefaultRes && freshDefaultRes.ok) {
       const freshDefaults = await freshDefaultRes.json();
       if (!localProjects) {

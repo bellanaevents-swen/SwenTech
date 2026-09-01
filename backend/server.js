@@ -333,8 +333,26 @@ app.post("/api/upload", upload.single("file"), async (req, res) => {
   }
 });
 
+// Prevent caching for all static files
+app.use((req, res, next) => {
+  res.setHeader('Cache-Control', 'no-store, no-cache, must-revalidate, proxy-revalidate');
+  res.setHeader('Pragma', 'no-cache');
+  res.setHeader('Expires', '0');
+  res.setHeader('Surrogate-Control', 'no-store');
+  next();
+});
+
 // Serve static files from the public directory (including html extensions)
-app.use(express.static(path.join(__dirname, "..", "public"), { extensions: ["html"] }));
+app.use(express.static(path.join(__dirname, "..", "public"), { 
+  extensions: ["html"],
+  etag: false,
+  lastModified: false,
+  setHeaders: (res, path) => {
+    res.setHeader('Cache-Control', 'no-store, no-cache, must-revalidate, proxy-revalidate');
+    res.setHeader('Pragma', 'no-cache');
+    res.setHeader('Expires', '0');
+  }
+}));
 
 // Fallback for SPA routing/direct access to serve index.html for unknown routes
 app.get("*", (req, res) => {
