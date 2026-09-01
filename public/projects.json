@@ -195,4 +195,18 @@
     "image": "https://res.cloudinary.com/kgdmg6su/image/upload/v1788279680/hero-section2.png",
     "link": "https://www.figma.com/design/6hmvbXm52yZw9e0iM8oWTG/Untitled?node-id=131-112&t=1qMa4Ap6JKSw6kKc-1"
   }
+  ,{
+    "id": 15,
+    "title_en": "JBSZendephotography",
+    "title_hu": "JBSZendephotography",
+    "title_ro": "JBSZendephotography",
+    "desc_en": "In Progress...",
+    "desc_hu": "Folyamatban...",
+    "desc_ro": "În curs de desfășurare...",
+    "tag_en": "Landing page",
+    "tag_hu": "Landoló oldal",
+    "tag_ro": "Pagină de destinație",
+    "image": "https://res.cloudinary.com/kgdmg6su/image/upload/v1788281613/landing_page.png",
+    "link": "https://jbszendephotography.vercel.app/"
+  }
 ]
