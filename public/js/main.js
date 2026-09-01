@@ -2386,11 +2386,17 @@ async function getReviews() {
         }
         // ----------------------
         
-        if (r.id === 2 && r.quote_body_en && r.quote_body_en.includes("database queries and controllers")) {
-          r.quote_body_en = r.quote_body_en.replace("database queries and controllers", "backend architecture and server-side scripts");
-          if (r.quote_body_hu) r.quote_body_hu = r.quote_body_hu.replace("adatbázis-lekérdezéseket és vezérlőket", "backend architektúrát és a szerveroldali szkripteket");
-          if (r.quote_body_ro) r.quote_body_ro = r.quote_body_ro.replace("interogările de baze de date și controllerele", "arhitectura backend și scripturile de pe server");
-          updated = true;
+        if (r.id === 2) {
+          if (r.name === "András Kovács") {
+            r.avatar = "https://res.cloudinary.com/kgdmg6su/image/upload/v1788179611/swen_portfolio/reviews/spmbp0ws4pmgrrwcvrbx.jpg";
+            updated = true;
+          }
+          if (r.quote_body_en && r.quote_body_en.includes("database queries and controllers")) {
+            r.quote_body_en = r.quote_body_en.replace("database queries and controllers", "backend architecture and server-side scripts");
+            if (r.quote_body_hu) r.quote_body_hu = r.quote_body_hu.replace("adatbázis-lekérdezéseket és vezérlőket", "backend architektúrát és a szerveroldali szkripteket");
+            if (r.quote_body_ro) r.quote_body_ro = r.quote_body_ro.replace("interogările de baze de date și controllerele", "arhitectura backend și scripturile de pe server");
+            updated = true;
+          }
         }
         return r;
       });
@@ -2430,7 +2436,7 @@ async function getReviews() {
       title_hu: "Társalapító és vezető fejlesztő",
       title_ro: "Co-fondator și dezvoltator principal",
       company: "WebCraft Solutions",
-      avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=120&h=120",
+      avatar: "https://res.cloudinary.com/kgdmg6su/image/upload/v1788179611/swen_portfolio/reviews/spmbp0ws4pmgrrwcvrbx.jpg",
       quote_bold_en: "Brilliant PHP developer who gets design perfectly!",
       quote_bold_hu: "Zseniális PHP fejlesztő, aki tökéletesen érti a dizájnt!",
       quote_bold_ro: "Un dezvoltator PHP genial care înțelege perfect designul!",
