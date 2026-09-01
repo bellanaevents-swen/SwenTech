@@ -2379,6 +2379,13 @@ async function getReviews() {
       const parsed = JSON.parse(localData);
       let updated = false;
       const cleanReviews = parsed.map(r => {
+        
+        if (r.id === 1 && r.name === "Alistair Vance") {
+          r.avatar = "https://res.cloudinary.com/kgdmg6su/image/upload/v1788179632/swen_portfolio/reviews/exctbjqpxqgypaqv4zd6.jpg";
+          updated = true;
+        }
+        // ----------------------
+        
         if (r.id === 2 && r.quote_body_en && r.quote_body_en.includes("database queries and controllers")) {
           r.quote_body_en = r.quote_body_en.replace("database queries and controllers", "backend architecture and server-side scripts");
           if (r.quote_body_hu) r.quote_body_hu = r.quote_body_hu.replace("adatbázis-lekérdezéseket és vezérlőket", "backend architektúrát és a szerveroldali szkripteket");
@@ -2407,7 +2414,7 @@ async function getReviews() {
       title_hu: "Szenior mérnöki igazgató",
       title_ro: "Director de inginerie senior",
       company: "London Tech Labs",
-      avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=120&h=120",
+      avatar: "https://res.cloudinary.com/kgdmg6su/image/upload/v1788179632/swen_portfolio/reviews/exctbjqpxqgypaqv4zd6.jpg",
       quote_bold_en: "Exceptional craftsmanship and deep technical expertise.",
       quote_bold_hu: "Kivételes szakértelem és mély technikai tudás.",
       quote_bold_ro: "Măiestrie excepțională și expertiză tehnică profundă.",
