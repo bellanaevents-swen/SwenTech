@@ -209,4 +209,18 @@
     "image": "https://res.cloudinary.com/kgdmg6su/image/upload/v1788281613/landing_page.png",
     "link": "https://jbszendephotography.vercel.app/"
   }
+  ,{
+    "id": 16,
+    "title_en": "CraveDrop FoodDelivery",
+    "title_hu": "CraveDrop FoodDelivery",
+    "title_ro": "CraveDrop FoodDelivery",
+    "desc_en": "CraveDrop is a modern, responsive food delivery web application crafted with React 18, TypeScript, and Tailwind CSS. Built to make satisfying your hunger effortless, it combines a sleek iOS-inspired glassmorphism UI with a lightning-fast ordering experience designed to put your favorite meals just a tap away.\n\nWhy Users Love CraveDrop:\n\nNative App Experience: Fully installable Progressive Web App (PWA) functionality lets you launch CraveDrop instantly from your home screen.\n\nMultilingual Convenience: Effortlessly browse and order in your preferred language with full English, Romanian, and Hungarian localization.\n\nInteractive Map Tracking: Live Leaflet and OpenStreetMap integration makes set-and-forget address pinpointing and order tracking smooth and intuitive.\n\nFlawless Mobile Design: A mobile-first, responsive layout that adapts perfectly to any screen, ensuring effortless browsing whether you're on a phone, tablet, or desktop.",
+    "desc_hu": "A CraveDrop egy modern, reszponzív ételrendelő webalkalmazás, amely React 18, TypeScript és Tailwind CSS segítségével készült. Azért épült, hogy az éhség csillapítása könnyed legyen, egyesíti a letisztult iOS-ihlette glassmorphism felhasználói felületet a villámgyors rendelési élménnyel, hogy kedvenc ételei csak egy érintésre legyenek.\n\nMiért szeretik a felhasználók a CraveDrop-ot:\n\nNatív alkalmazás élmény: A teljesen telepíthető progresszív webalkalmazás (PWA) funkcionalitás lehetővé teszi a CraveDrop azonnali elindítását a kezdőképernyőről.\n\nTöbbnyelvű kényelem: Böngésszen és rendeljen könnyedén a kívánt nyelven, teljes angol, román és magyar lokalizációval.\n\nInteraktív térképkövetés: Az élő Leaflet és OpenStreetMap integráció simává és intuitívvé teszi a címek megadását és a rendelések nyomon követését.\n\nHibátlan mobil dizájn: Mobil-első, reszponzív elrendezés, amely tökéletesen alkalmazkodik bármilyen képernyőhöz, biztosítva a könnyed böngészést telefonon, táblagépen vagy asztali gépen.",
+    "desc_ro": "CraveDrop este o aplicație web modernă și responsivă pentru livrarea de mâncare, creată cu React 18, TypeScript și Tailwind CSS. Construită pentru a face potolirea foamei o experiență fără efort, combină o interfață elegantă de tip glassmorphism inspirată de iOS cu o experiență de comandă extrem de rapidă, concepută pentru a pune mesele preferate la doar o atingere distanță.\n\nDe ce iubesc utilizatorii CraveDrop:\n\nExperiență de aplicație nativă: Funcționalitatea Progressive Web App (PWA) complet instalabilă vă permite să lansați CraveDrop instantaneu de pe ecranul principal.\n\nComoditate multilingvă: Răsfoiți și comandați fără efort în limba preferată, cu localizare completă în engleză, română și maghiară.\n\nUrmărire pe hartă interactivă: Integrarea live Leaflet și OpenStreetMap face ca fixarea adresei și urmărirea comenzilor să fie fluide și intuitive.\n\nDesign mobil impecabil: Un aspect receptiv, mobile-first, care se adaptează perfect la orice ecran, asigurând o navigare fără efort indiferent dacă utilizați un telefon, o tabletă sau un desktop.",
+    "tag_en": "Landing Page",
+    "tag_hu": "Landoló oldal",
+    "tag_ro": "Pagină de destinație",
+    "image": "https://res.cloudinary.com/kgdmg6su/image/upload/v1788341951/2026_12_34_36_EEST.png",
+    "link": "https://crave-drop-food-delivery.vercel.app/"
+  }
 ]
