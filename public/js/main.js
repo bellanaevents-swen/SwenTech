@@ -3194,7 +3194,7 @@ async function getServicesData() {
   }
 
   try {
-    const res = await fetch('services.json');
+    const res = await fetch(`services.json?t=${new Date().getTime()}`, { cache: 'no-store' });
     if (res.ok) {
       const data = await res.json();
       localStorage.setItem('custom_services', JSON.stringify(data));
