@@ -152,8 +152,8 @@
     "tag_ro": "Mobil és IoT",
     "image": "images/project3.svg",
     "link": "#"
-  }
-  ,{
+  },
+  {
     "id": 12,
     "title_en": "Budget Calculator",
     "title_hu": "Költségvetés Kalkulátor",
@@ -166,8 +166,8 @@
     "tag_ro": "Aplicație Web",
     "image": "https://res.cloudinary.com/kgdmg6su/image/upload/v1788180598/swen_portfolio/projects/o3qkvzccrbhlepjts6cs.png",
     "link": "https://bellanaevents-swen.github.io/budgetcalculator/"
-  }
-  ,{
+  },
+  {
     "id": 13,
     "title_en": "Fancy Furniture",
     "title_hu": "Fancy Furniture",
@@ -180,8 +180,8 @@
     "tag_ro": "Aplicație Web",
     "image": "https://res.cloudinary.com/kgdmg6su/image/upload/v1788194277/swen_portfolio/projects/wxosb0fwlet4lfvh1te1.png",
     "link": "https://fancyfurniture.vercel.app/"
-  }
-  ,{
+  },
+  {
   "id": 14,
     "title_en": "Salsa Moments",
     "title_hu": "Salsa Moments",
@@ -194,8 +194,8 @@
     "tag_ro": "Design UI/UX",
     "image": "https://res.cloudinary.com/kgdmg6su/image/upload/v1788279680/hero-section2.png",
     "link": "https://www.figma.com/design/6hmvbXm52yZw9e0iM8oWTG/Untitled?node-id=131-112&t=1qMa4Ap6JKSw6kKc-1"
-  }
-  ,{
+  },
+  {
     "id": 15,
     "title_en": "JBSZendephotography",
     "title_hu": "JBSZendephotography",
@@ -208,8 +208,8 @@
     "tag_ro": "Pagină de destinație",
     "image": "https://res.cloudinary.com/kgdmg6su/image/upload/v1788281613/landing_page.png",
     "link": "https://jbszendephotography.vercel.app/"
-  }
-  ,{
+  },
+  {
     "id": 16,
     "title_en": "CraveDrop FoodDelivery",
     "title_hu": "CraveDrop FoodDelivery",
